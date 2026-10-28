@@ -1,0 +1,8 @@
+[package]
+name = "tracert"
+version = "0.1.0"
+edition = "2024"
+description = "The Tracert Command Summarises Saved Windows Route Traces, Identifying Unanswered Hops and Comparing Router Paths Between Runs"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
